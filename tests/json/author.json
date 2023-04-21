@@ -1,0 +1,20 @@
+{
+  "__description": "author: valid value",
+  "__tests": [
+    "feed['author'] == 'abc'",
+    "len(feed['author_detail'].keys()) == 3",
+    "feed['author_detail']['name'] == 'abc'",
+    "feed['author_detail']['image'] == 'https://domain.example/i.jpeg'",
+    "feed['author_detail']['href'] == 'https://domain.example/'",
+    "len(feed['authors']) == 1",
+    "len(feed['authors'][0].keys()) == 3",
+    "feed['authors'][0]['name'] == 'abc'",
+    "feed['authors'][0]['image'] == 'https://domain.example/i.jpeg'",
+    "feed['authors'][0]['href'] == 'https://domain.example/'"
+  ],
+  "author": {
+    "name": "abc",
+    "avatar": "https://domain.example/i.jpeg",
+    "url": "https://domain.example/"
+  }
+}

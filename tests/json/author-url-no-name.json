@@ -1,0 +1,12 @@
+{
+  "__description": "author.url: missing a `name` key",
+  "__tests": [
+    "len(feed['author_detail'].keys()) == 1",
+    "feed['author_detail']['href'] == 'https://domain.example/'",
+    "len(feed['authors'][0].keys()) == 1",
+    "feed['authors'][0]['href'] == 'https://domain.example/'"
+  ],
+  "author": {
+    "url": "https://domain.example/"
+  }
+}
